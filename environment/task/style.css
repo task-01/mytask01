@@ -1,0 +1,331 @@
+@media screen and (min-width: 1081px) {
+    body {
+      margin: 0;
+      padding-right: 0%;
+    }
+    .task {
+      position: relative;
+    }
+    .title-potepan {
+      background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+      background-size: cover;
+      padding-bottom: 615px;
+      display: block;
+      width: 100%;
+    }
+    .potepan-img {
+      position: absolute;
+      left: 680px;
+      top: -10px;
+    }
+    .potepan-canp {
+      padding: 10px 17px;
+    }
+    .potepan-canp > a:hover {
+      opacity: 0.5;
+    }
+    .potepan-canp > a > img {
+      width: 181px;
+      height: 20px;
+      padding-left: 20px;
+    }
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: 20px;
+      gap: 390px;
+    }
+    .menu-bar {
+      text-align: right;
+    }
+    .menuList > ul > li {
+      display: inline-block;
+      text-align: center;
+    }
+    .menuList > ul > li > a {
+      text-decoration: none;
+    }
+    .counseling-button,.document-button {
+      text-decoration: none;
+      border-radius: 40px;
+    }
+    .document-button:hover {
+      opacity: 0.5;
+    }
+    .counseling-button:hover {
+      opacity: 0.5;
+    }
+    .counseling-button {
+      color: aliceblue;
+      background-color: #ff9800;
+      padding: 25px 50px;
+      margin-right: 10px;
+    }
+    .select-button {
+      padding-top: 50px;
+      padding-left: 190px;
+    }
+    .document-button {
+      color: black;
+      border: solid  0.1px #c3c0c0;
+      padding: 25px;
+      position: relative;
+    }
+    .menuList > ul > li {
+      font-size: 9px;
+      padding: 0 17px;
+      margin-top: -15px;
+    }
+    .menuList > ul > li::first-line {
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .menuList > ul > li:last-child {
+      background-color: #ff9800;
+      border-radius: 30px;
+      padding: 13px 20px;
+      margin-left: 10px;
+      position: relative;
+    }
+    .menu-counseling {
+      color: rgb(255, 255, 255);
+      position: relative;
+      top: -7px;
+      display: block;
+      padding-top: 5px;
+      height: 10px;
+    }
+    .menuList > ul > li:last-child:hover {
+      opacity: 0.5;
+    }
+    .menu-content,.menu-interview,.menu-faq,.menu-recruit,.menu-document {
+      color: rgb(0, 0, 0);
+      position: relative;
+    }
+    .sub-message {
+      color: #333;
+      text-align: center;
+      width: 700px;
+      font-family: 'Lato',sans-serif;
+      font-size: 38px;
+      line-height: 54px;
+      margin-bottom: 15px;
+      margin-left: 100px;
+    }
+    .appeal-img {
+      display: flex;
+      justify-content: left;
+      gap: 20px;
+      padding-left: 200px;
+    }
+    .sub-title {
+      position: absolute;
+      top: 70px;
+    }
+    .supplement-list {
+      position: absolute;
+      top: 470px;
+      left: 200px;
+      color: #c3c0c0;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    .introduction-movie {
+      background-color: #ff9800;
+      padding-top: 55px;
+      padding-bottom: 55px;
+      margin-bottom: auto;
+      position: relative;
+    }
+    .introduction-movie > p::first-line {
+      font-size: 35px;
+      font-weight: bold;
+    }
+    .introduction-movie > p {
+      color: white;
+      padding-left: 700px;
+    }
+    .here-study {
+      font-size: 20px;
+      text-decoration: none;
+      color: azure;
+    }
+    .study-video {
+      width: 500px;
+      height: 330px;
+      position: absolute;
+      left: 170px;
+      top: 9px;
+    }
+    }
+    @media screen and (max-width: 1080px) {
+      body {
+        margin: 0;
+        padding-right: 0%;
+      }
+      .task {
+        position: relative;
+      }
+      .sub-title {
+        max-width: 1140px;
+        padding-left: 50px;
+        padding-right: 50px;
+        position: relative;
+      }
+      .sub-message {
+        display: flex;
+        z-index: 20;
+        text-align: center;
+        font-size: 38px;
+        position: absolute;
+        bottom: 500px;
+      }
+      .appeal-img {
+        position: absolute;
+        bottom: 320px;
+        z-index: 20;
+        display: flex;
+        padding-left: 10px;
+      }
+      .appeal-img > img {
+        padding: 0 5px;
+        width: 100%;
+      }
+      .title-potepan {
+        background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-top: 700px;
+        padding-bottom: 28px;
+        position: relative;
+        z-index: 1;
+      }
+      .menu-bar {
+        display: none;
+      }
+      .hamburger {
+        position: relative;
+        display: block;
+        width: 30px;
+        height: 25px;
+        z-index: 100;
+      }
+      .hamburger > span{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 2.5px;
+        background-color: black;
+        transform: translateY(-50%);
+      }
+      .hamburger::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2.5px;
+        background-color: black;
+      }
+      .hamburger::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2.5px;
+        background-color: black;
+      }
+      .menu {
+        position: fixed;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: white;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        bottom: 730px;
+        position: relative;
+        z-index: 20;
+      }
+      .menu-faq {
+        position: relative;
+        z-index: 20;
+      }
+      .potepan-canp > a > img{
+        width: 180px;
+        position: relative;
+        z-index: 20;
+        padding-left: 30px;
+      }
+      .menuList {
+        padding-right: 30px;
+      }
+      .supplement-list {
+        color: #c3c0c0;
+        font-size: 12px;
+        white-space: nowrap;
+        position: absolute;
+        bottom: 100px;
+        z-index: 20;
+      }
+      .counseling-button,.document-button {
+        text-decoration: none;
+        border-radius: 40px;
+      }
+      .counseling-button {
+        color: aliceblue;
+        background-color: #ff9800;
+        padding: 25px 50px;
+        margin-right: 10px;
+      }
+      .select-button {
+        position: absolute;
+        bottom: 250px;
+        z-index: 20;
+      }
+      .document-button {
+        color: black;
+        border: solid  0.1px #c3c0c0;
+        padding: 25px;
+      }
+      .introduction-movie {
+        background-color: #ff9800;
+        padding-top: 55px;
+        padding-bottom: 55px;
+        margin-bottom: auto;
+        z-index: 20;
+    
+      }
+      .introduction {
+        position: relative;
+        margin-top: -70px;
+      }
+      .introduction-movie > p::first-line {
+        font-size: 35px;
+        font-weight: bold;
+      }
+      .introduction-movie > p {
+        color: white;
+        padding-left: 700px;
+      }
+      .here-study {
+        font-size: 20px;
+        text-decoration: none;
+        color: azure;
+      }
+      .study-video {
+        width: 50%;
+        padding-left: 10px;
+        height: 300px;
+        position: absolute;
+        left: 110px;
+        bottom: 50px;
+      }
+    } 
